@@ -8,7 +8,6 @@ body{
 	/*to make the height and width responsive*/
 	width: 40vw;
 	background: url(clock.jpg) no-repeat;
-        border-image: url(border.png) 30 round;
 	/*setting our background image*/
 	background-size: 100%;
 }
@@ -74,7 +73,7 @@ body{
         margin-right: 50%;
         color:white;
 	text-align: center;
-        background:url("Capture.png");
+        background:url("Capture.PNG");
         background-repeat: repeat-1;
         background-size:200px 100px;
 	border: 2px solid white;
