@@ -72,6 +72,7 @@ body{
 	margin-left: 20%;
         margin-right: 50%;
         color:white;
+	display:inline;
 	text-align: center;
 	background:skyblue;
         /*background:url("Capture.PNG");*/
@@ -87,6 +88,7 @@ body{
         color:white;
 	text-align: center;
 	background:skyblue;
+	display:inline;
         /*background:url("Capture.PNG");*/
         background-repeat: repeat-1;
         background-size:200px 100px;
