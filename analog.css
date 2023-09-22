@@ -1,0 +1,82 @@
+body{
+ 
+}
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 40vw;
+	/*to make the height and width responsive*/
+	width: 40vw;
+	background: url(clock.jpg) no-repeat;
+        border-image: url(border.png) 30 round;
+	/*setting our background image*/
+	background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: skyblue;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+#text{
+	position: absolute;
+	width: 40%;
+	height: 40%; 
+	top: 70%;
+	left: 30%;
+	opacity: 0.8;
+}
+
+#text p{
+	background: blue;
+	text-align: center;
+	font-style: bold;
+	text-transform: uppercase;
+	animation: mymove 5s infinite;
+	font-size: large;
+	color:skyblue;
+	opacity: 0.4;
+}
+@keyframes mymove {
+	from {background-color:blue; color:skyblue;}
+	to {background-color: aliceblue; color:blue;}
+  }
+#hour {
+	width: 2.4%;
+	height: 15%;
+	top: 32%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 20%;
+	top: 26%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 30%;
+	top: 16%;
+	left: 49.25%;
+	opacity: 0.8;
+}
+#clock {
+	font-size: 80px;
+	width: 800px;
+	margin-left: 20%;
+        margin-right: 50%;
+        color:white;
+	text-align: center;
+        background:url("capture.png");
+        background-repeat: repeat-1;
+        background-size:200px 100px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
