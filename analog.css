@@ -83,8 +83,6 @@ body{
         /*background:url("Capture.PNG");*/
         background-repeat: repeat-1;
         background-size:200px 100px;
-	border: 2px solid white;
-	border-radius: 20px;
 }
 @media screen and (max-width: 768px) {
 	#clock {
