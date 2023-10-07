@@ -11,7 +11,12 @@ body{
 	/*setting our background image*/
 	background-size: 100%;
 }
-
+  header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
 #hour,
 #minute,
 #second {
